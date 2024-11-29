@@ -13,5 +13,6 @@ print('Список студентов в алфавитном порядке: '
 for i in range(len(grades)):
     grades[i]=sum(grades[i])/len(grades[i])
 print('Средний балл: ',grades)
-average_ball=dict(zip(sorted_list,grades))
+average_ball={sorted_list[0]:grades[0],sorted_list[1]:grades[1],sorted_list[2]:grades[2],sorted_list[3]:grades[3],sorted_list[4]:grades[4]}
+#average_ball=dict(zip(sorted_list,grades))
 print('Средний балл студентов: ',average_ball)
