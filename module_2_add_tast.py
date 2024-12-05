@@ -15,6 +15,7 @@ while True:
     elif number >= 20 or number <= 3:
         print('Вы не попали в числовой ряд!')
         continue
+print('Ваш код пароль!')
 for i in password:
     print(i, end='')
 
